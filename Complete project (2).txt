@@ -1,0 +1,1231 @@
+mail id: indianswachbharath@gmail.com
+pass : Indian@1974
+
+/* W Html
+
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>WELCOME</title>
+</head>
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.form-container h2 {
+            text-align: center;
+        }
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background: greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+.section {
+    background-image:url("../images/bg.jpg");
+    background-size: 1500px 1500px;
+    background-repeat: no-repeat;
+}
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+select{
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+
+.seperation {
+    border-style:groove;
+    border-color:#00b300;
+    border-width:2px;
+    padding:10px;
+}
+a {
+    text-decoration:none;
+}
+</style>
+<body>
+<div class="section">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+<h1> <center>Swatchh Bharath - Monitoring garbage in Gram panchayath </center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Date and Time</button>
+
+<p id="demo"></p>
+
+<table>
+    <tr>
+        <td>
+          <button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button>
+        </td>
+        <td>
+          <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+<td>
+    
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your village clean</font></marquee>
+<center>
+<p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="g.jpg" height="300" width="600">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="s.jpg" height="300" width="600">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C.jpg" height="300" width="600">
+</div>
+</p>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</center>
+
+<div style="font-family: Elephant; color:black; font-size:150%">
+<p class="seperation"><i><b>Swachh Bharat Monitoring the Garbage Collection</b></i> is a campaign by OUR TEAM IS TO Monitoring THE GARBAGE FROM EACH HOUSE OF THE VILLAGE ,AND TO KEEP STREETS IN VILLAGE CLEAN .
+The campaign was officially launched on 2 October<font color="blue">IN GITAM UNIVERSITY BANGALORE
+ It is<font color="blue"> India's FIRST ever drive with <font color="blue">3 million government employees,</font> and especially school and college students from all parts of India, participating in the campaign.
+<br>
+<br><font color="blue">Gitam <t>exhorted people to fullfill<font color="blue"> Mahatma Gandhi's</font> vision of Clean India. The green village movement that seeks to create a Clean India. Cleanliness was very close to Mahatma Gandhi's heart. A clean India is the best tribute we can pay to Bapu.
+ </p>
+</div>
+
+<div style="background-color:#2f2f1e;">
+    <p>
+    <br>
+    </p>
+    <font face="calibri" color="#e0e0d1" size="3">
+    <p style="text-align:center;">&copy; Copyright 2023</p>
+    <p style="text-align:right;">Disclaimer and Privacy Policy&nbsp;&nbsp;&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp;Website hosted & maintained by our Team.</p>
+    <p>&nbsp;&nbsp;&nbsp;Team <i>Iliyas</i> Leader of Team</p>
+    <ul type="square">
+    <li>Illiyas +91 6302668492
+    
+    </ul>
+    <ul type="square">
+      <li>Sai kiran +91 9702668492
+      
+      </ul>
+      <ul type="square">
+        <li>Sravan +91 9802668492
+        
+        </ul>
+        <ul type="square">
+          <li>Shiva Krishna +91 7982668492
+          
+          </ul>
+        
+    
+    </font>
+    <p>
+    <br>
+    </p>
+</div>
+</div>
+</body>
+</html>
+
+*Admin form
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    /* Add your styles here */
+    /* ... */
+
+    button {
+      border: 0;
+      background: greenyellow;
+      border-radius: 4px;
+      box-shadow: 0 2px 0 #006599;
+      color: blue;
+      cursor: pointer;
+      font: inherit;
+      margin: 0;
+      outline: 0;
+      transition: all .1s linear;
+    }
+
+    button:active {
+      box-shadow: 0 4px 0 #006599;
+      transform: translateY(3px);
+    }
+
+    h1 {
+      text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+      font-size: 300%;
+    }
+
+    .fortable {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      color: blue;
+      font-size: 200%;
+    }
+
+    .forselect {
+      color: blue;
+      background-color: greenyellow;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 100%;
+    }
+
+    .border {
+      border-style: outset;
+      border-color: #3385ff;
+      border-width: 5px;
+    }
+
+    tr.aman:hover {
+      background-color: #e6eeff;
+    }
+
+    .aman {
+      background-image: url("../images/bg.jpg");
+      background-size: 1500px 650px;
+      background-repeat: no-repeat;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body class="aman">
+  <div class="aman">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+    <h1> <center><a href="W.html" style="color:red;">Swachh Bharat - Monitoring garbage in Gram panchayath</a></center> </h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Display Date and Time.</button>
+    <button type="button"><a href="W.html">Home</a></button>
+
+    <p id="demo"></p>
+
+    <table class="fortable">
+      <tr>
+        <td><button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button></td>
+        <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();">
+      <font face="calibri" color="#f0ffff" size="5">Keep your village clean!</font>
+    </marquee>
+
+    <center>
+      <p><br></p>
+      <div class="jotform-table-embed" style="width: 100%; height: 600px;" data-id="240051987651459" data-iframesource="www.jotform.com" data-type="interactive"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName("script")[0]; if (!doc.getElementById(id)){var script=doc.createElement("script"); script.async=1; script.id=id; script.src="https://cdn.jotfor.ms/s/umd/latest/for-sheets-embed.js"; scripts.parentNode.insertBefore(script, scripts);}})(document, "jotform-async");</script>
+    </center>
+  </div>
+</body>
+</html>
+
+
+/*Gallery.html
+ 
+ 
+<html>
+<head>
+<title>images</title>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  border-radius: 8px;
+  box-shadow:0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+div.img:hover {
+    border: 1px solid #777;
+  background-color:#9acd32;
+}
+
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+div.img img {
+    width: 100%;
+    height: 150;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.section
+{
+background-image:url("../images/bg.jpg");
+background-size:1500px 1050px;
+} 
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+select{
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+
+
+a {
+  text-decoration:none;
+}
+</style>
+</head>
+<body class="section">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+<h1><center><a href="homepage.html">Swachh Bharath - Monitoring garbage in Gram panchayath</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time.</button>
+<button type="button"><a href="W.html">Home</button>
+
+<p id="demo"></p>
+
+<table>
+    <tr>
+        <td>
+          <td><button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button></td>
+          <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+<td>
+    
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your village clean!</font></marquee>
+
+<h1><center>IMAGES</center></h1>
+<div class="img">
+  <a target="_blank" href="../images/modi2.jpg">
+    <img src="R.jpg" alt="modi2" width="300" height="200">
+  </a>
+  <div class="desc">PM launches swachh bharat abhiyaan</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/1111.jpg">
+    <img src="A.jpg" alt="1111" width="300" height="200">
+  </a>
+  <div class="desc">Waste in Villages</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/2222.jpg">
+    <img src="B.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">GARBAGE collecting</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="../images/3333.jpg">
+    <img src="DD.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">People cleaning there locality</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/4444.jpg">
+    <img src="E.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">WASTE SEGRATION LOGO</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/5555.jpg">
+    <img src="F.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Throwing garbage at one place</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/7777.jpg">
+    <img src="t.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Garbage Collectors</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/6666.jpg">
+    <img src="z.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Clean village workers</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/8888.jpg">
+    <img src="x.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Dustbins</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/9999.jpg">
+    <img src="o.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Smart garbage collector</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/nagarjun.jpg">
+    <img src="k.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Smart Dustbin</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/s1.jpg">
+    <img src="team.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Our team members collecting garbage from every home</div>
+</div>
+
+
+</div>
+<div class="jotform-table-embed" style="width: 100%; height: 600px;" data-id="240635028122446" data-iframesource="www.jotform.com" data-type="interactive"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName("script")[0]; if (!doc.getElementById(id)){var script=doc.createElement("script"); script.async=1; script.id=id; script.src="https://cdn.jotfor.ms/s/umd/latest/for-sheets-embed.js"; scripts.parentNode.insertBefore(script, scripts);}})(document, "jotform-async");</script>
+
+</body>
+</html>
+
+/* Activity html
+
+<!DOCTYPE Html>
+
+<head >
+<title>images</title>
+<style>
+.shadow {
+    text-shadow:5px 0 0 #00FF00, 0 5px 0 #00FF00;
+}
+div.relative {
+    position: relative;
+    left: 50px;
+}
+div.img {
+    
+    border: 0.1px solid #ccc;
+}
+
+div.img:hover {
+    border: 3px solid #777;
+    background-color:#9acd32;
+}
+
+div.desc {
+    padding: 20px;
+    text-align:left;
+}
+div.desc:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.jotform-embed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh; /* Adjust the height as needed */
+    }
+
+    .jotform-embed iframe {
+        width: 100%;
+        height: 100%;
+    }
+body {
+    color:black;
+}
+
+    .aman {
+    background-image:url("../images/bg.jpg");
+    background-size:100px 50px;
+            background-repeat:no-repeat;
+    }
+    /* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+
+.fortable {
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+.forselect {
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+.border {
+            border-style:outset;
+            border-color:#3385ff;
+            border-width:1px;
+        }
+        
+        a {
+        text-decoration: none;
+        }
+        tr.aman:hover{background-color:#e6eeff}
+</style>
+</head>
+<body class="section">
+<div class="aman">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+<h1> <center><a href="W.html">Swachh Bharath - Monitoring garbage in Gram panchayath</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+What is today Date and Time?</button>
+<button type="button"><a href="W.html">Home</button>
+
+<p id="demo"></p>
+
+<table class="fortable">
+    <tr>
+        <td>
+          <button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button>
+        </td>
+
+        <td><button>Activities</button></td>
+        <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+
+<td>
+    
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your village clean!</font></marquee>
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Garbage Clean Village Activities</h1>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h2>Welcome to Our Village Clean-Up Initiative!</h2>
+            <p>This initiative is all about bringing our community together to keep our village clean and green. We organize regular clean-up activities, involving local schools, businesses, and residents to make a real difference.</p>
+
+            <div class="activity">
+                <h3>Upcoming Clean-Up Event</h3>
+                <p>Join us for our next clean-up event. Details are as follows:</p>
+                <ul>
+                    <li>Date: Saturday, 15th April 2024</li>
+                    <li>Time: 9 AM - 12 PM</li>
+                    <li>Location: Central Park, Main Street</li>
+                    <li>What to bring: Gloves, bags, and a can-do attitude!</li>
+                </ul>
+                <img src="g.jpg" alt="Clean-Up Event">
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact us at swatchbharath.org for more information.</p>
+    </div>
+    <div class="jotform-embed" style="min-height: 1px;" data-id="24062256227905403" data-type="interactive" data-iframesource="www.jotform.com">
+    </div>
+    <script>
+    (function(doc, id){var scripts=doc.getElementsByTagName("script")[0]; if (!doc.getElementById(id)){var script=doc.createElement("script");
+    script.async=1; script.id=id; script.src="https://cdn.jotfor.ms/s/umd/latest/for-report-embed.js";
+    scripts.parentNode.insertBefore(script, scripts);}})(document, "jotform-async");</script>
+</body>
+</body></div>
+</html>
+/* about html
+
+<html>
+<head>
+  <title>ABOUT</title>
+</head>
+<style>
+  /* Your existing styles remain unchanged */
+
+  h1 {
+    text-align: center;
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size: 300%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  div.about-us,
+  div.contact-info {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  div.about-us,
+  div.contact-info {
+    text-align: center;
+  }
+
+  /* Your existing styles remain unchanged */
+</style>
+<body>
+  <!-- Your existing HTML content -->
+
+  <h1>Swachh Bharat - Monitoring garbage in Gram panchayath</h1>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Display Date and Time.</button>
+  <button type="button"><a href="W.html">Home</a></button>
+  <p id="demo"></p>
+
+  <!-- Your existing HTML content -->
+
+  <h2>About</h2>
+  <p><b><h2>Swatchh Bharath - Monitoring garbage in Gram panchayath is the garbage collecting plan and maintaining clean village abhiyan taken initiative by our team</h2><br>
+    <div class="img" style="text-align: center;">
+      <a target="_blank" href="../images/111.jpg">
+        <img src="s.jpg" alt="Forest" width="400" height="400" style="display: block; margin: 0 auto;">
+      </a>
+      <div class="desc" style="text-align: center;">Garbage-free village</div>
+    </div><br>
+    
+
+  <h2>Why join Us?</h2>
+  <p>Join us in the Indian campaign for a cleaner India! Your participation through this web page we ensures efficient waste disposal, promotes recycling, and fosters environmental awareness. Together, we create greener cities and a sustainable future for all.</p>
+
+  <div class="about-us">
+    <h2>About the Campaign</h2>
+    <p>
+      The Indian campaign for waste disposal, encouraging citizen participation. To educate Users to use bins and update waste status via a digital platform. Real-time data of efficient waste collection and recycling strategies, promoting cleaner and greener cities.
+    </p>
+  </div>
+
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p>Email: ishaik2@gitam.in<br>Phone: +91 123 456 7890</p>
+    <p>Email: smekavar@gitam.in<br>Phone: +91 123 456 7890</p>
+    <p>Email: sganugap@gitam.in<br>Phone: +91 123 456 7890</p>
+    <p>Email: skrishv@gitam.in<br>Phone: +91 123 456 7890</p>
+  </div>
+
+  <h3>To provide accurate information about village garbage collection details, I would need specific information about the location or village you're referring to. Garbage collection services can vary greatly depending on the country, region, and even individual villages. However, I can provide a general overview of what these services might involve in a typical village setting:</h3><br>
+
+<br> Key Aspects of Village Garbage Collection<br>
+
+<br>1. Frequency of Collection: Depending on the size of the village and available resources, garbage might be collected weekly, bi-weekly, or on another schedule.<br>
+
+<br>2. Types of Waste Collected: Often, villages will have systems for collecting general waste, recyclables, and sometimes organic or garden waste. The categorization and segregation of waste can vary.<br>
+
+<br>3. Collection Points: In some villages, residents may need to bring their garbage to a central collection point, while in others, door-to-door collection might be available.<br>
+<br>4. Special Collections: For large items, hazardous waste, or electronic waste, special collection days or drop-off centers might be designated.<br>
+
+<br>5. Fees and Charges: Some villages may include garbage collection as part of municipal services funded by taxes, while others might charge a specific fee for waste collection.<br>
+
+<br>6. Community Involvement: In smaller or more rural villages, community-led initiatives for waste management, including recycling and composting programs, might be in place.<br>
+
+<br>7. Regulations and Compliance: Local regulations may dictate how and when to dispose of certain types of waste, and there might be penalties for non-compliance.<br>
+<br>8. Education and Awareness**: Many villages invest in educating residents about proper waste disposal, recycling, and reducing waste.<br>
+
+<br>9. Contracted Services: Some villages contract out waste collection to private companies, while others manage it through municipal services.<br>
+
+<br>10. Sustainability Initiatives: Efforts to reduce waste, promote recycling, and manage waste in environmentally friendly ways are increasingly common.<br>
+
+<br>To Get Specific Information:<br>
+
+<br>-                    **Contact Local Authorities: Reach out to the village council or local government office.<br>
+<br>-                    **Check Official Websites: Many villages and municipalities have websites with detailed information about waste collection services.<br>
+<br>-                    **Community Boards or Forums: Local community boards, online forums, or social media groups can be good resources for this information.<br>
+<br>-                    **Ask Locals: Sometimes, the best information comes from local residents who are familiar with the system.<br>
+
+  <!-- Your existing HTML content -->
+
+  <div class="img">
+    </a>
+  </div>
+</body>
+</html>
+
+*/ Reistraion form
+
+<html>
+<head>
+	<title>login</title>
+	<style>
+	html>
+<head>
+<title>Form</title>
+<style>
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+
+.fortable {
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+.forselect {
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+.border {
+			border-style:outset;
+			border-color:#3385ff;
+			border-width:5px;
+		}
+		tr.aman:hover{background-color:#e6eeff}
+		.aman {
+			background-image:url("../images/bg.jpg");
+	background-size:1500px 650px;
+			background-repeat:no-repeat;
+		}
+		a{
+		text-decoration:none;
+		}
+
+</style>
+</head>
+<body class="aman">
+<div class="aman">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+<h1> <center><a href="W.html" color="red">Swachh Bharat - Monitoring garbage in Gram panchayath</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time.</button>
+<button type="button"><a href="W.html">Home</button>
+
+<p id="demo"></p>
+
+<table class="fortable">
+    <tr>
+        <td>
+          <button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button>
+        </td>
+        <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+<td>
+    
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your village clean!</font></marquee>
+		
+<center>
+<p>
+<br>
+</p>
+<h1 style="font-family:calibri; font-size:300%; color:#280080;">Fill the details here</h2>
+  <script type="text/javascript" src="https://form.jotform.com/jsform/240041150090033"></script>
+</center>
+</body>
+</html
+
+*/Garbage collector form
+
+<!DOCTYPE Html>
+
+<head >
+<title>images</title>
+<style>
+.shadow {
+    text-shadow:5px 0 0 #00FF00, 0 5px 0 #00FF00;
+}
+div.relative {
+    position: relative;
+    left: 50px;
+}
+div.img {
+    
+    border: 0.1px solid #ccc;
+}
+
+div.img:hover {
+    border: 3px solid #777;
+    background-color:#9acd32;
+}
+
+div.desc {
+    padding: 20px;
+    text-align:left;
+}
+div.desc:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.jotform-embed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh; /* Adjust the height as needed */
+    }
+
+    .jotform-embed iframe {
+        width: 100%;
+        height: 100%;
+    }
+body {
+    color:black;
+}
+
+    .aman {
+    background-image:url("../images/bg.jpg");
+    background-size:100px 50px;
+            background-repeat:no-repeat;
+    }
+    /* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+
+.fortable {
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+.forselect {
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+.border {
+            border-style:outset;
+            border-color:#3385ff;
+            border-width:1px;
+        }
+        
+        a {
+        text-decoration: none;
+        }
+        tr.aman:hover{background-color:#e6eeff}
+</style>
+</head>
+<body class="section">
+<div class="aman">
+    <img src="Flag_of_India.gif" style="height:120px;width:120px;float:right;">
+<h1> <center><a href="W.html">Swachh Bharath - Monitoring garbage in Gram panchayath</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time.</button>
+<button type="button"><a href="W.html">Home</button>
+
+<p id="demo"></p>
+
+<table class="fortable">
+    <tr>
+        <td>
+          <button><a href="https://swachhbharatmission.gov.in/sbmcms/index.htm">GOVT.WEBSITE</a></button>
+        </td>
+
+        <td><button>FOR ADMIN</button></td>
+        <td><button><a href="registered.html">FOR ADMIN</a></button></td>
+          <td><button><a href="activities.html">Activities</a></button></td>
+          <td><button><a href="gallery.html">Gallery</a></button></td>
+          <td><button><a href="about.html">About us</a></button></td>
+          <td><button><a href="Register.html">Register</a></button></td>
+          <td><button><a href="Garbagecollector.html">Garbage Collecor</a></button></td>
+
+<td>
+    
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your village clean!</font></marquee>
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Garbage Collector purpose</h1>
+    </div>
+    <div class="jotform-table-embed" style="width: 100%; height: 600px;" data-id="240635028122446" data-iframesource="www.jotform.com" data-type="interactive"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName("script")[0]; if (!doc.getElementById(id)){var script=doc.createElement("script"); script.async=1; script.id=id; script.src="https://cdn.jotfor.ms/s/umd/latest/for-sheets-embed.js"; scripts.parentNode.insertBefore(script, scripts);}})(document, "jotform-async");</script>
+    
+
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact us at swatchbharath.org for more information.</p>
+    </div>
+    <div class="jotform-embed" style="min-height: 1px;" data-id="24062256227905403" data-type="interactive" data-iframesource="www.jotform.com"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName("script")[0]; if (!doc.getElementById(id)){var script=doc.createElement("script"); script.async=1; script.id=id; script.src="https://cdn.jotfor.ms/s/umd/latest/for-report-embed.js"; scripts.parentNode.insertBefore(script, scripts);}})(document, "jotform-async");</script>
+</body>
+</body></div>
+</html>
